@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7CECFA21B226130094AFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CECF921B226130094AFAF /* AppDelegate.swift */; };
+		FA7CECFC21B226130094AFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CECFB21B226130094AFAF /* ViewController.swift */; };
+		FA7CECFF21B226130094AFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CECFD21B226130094AFAF /* Main.storyboard */; };
+		FA7CED0121B226170094AFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7CED0021B226170094AFAF /* Assets.xcassets */; };
+		FA7CED0421B226170094AFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7CED0221B226170094AFAF /* LaunchScreen.storyboard */; };
+		FA7CED0F21B226170094AFAF /* MachineLearningVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CED0E21B226170094AFAF /* MachineLearningVisionTests.swift */; };
+		FA7CED1A21B226170094AFAF /* MachineLearningVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CED1921B226170094AFAF /* MachineLearningVisionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7CED0B21B226170094AFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7CECEE21B226130094AFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7CECF521B226130094AFAF;
+			remoteInfo = MachineLearningVision;
+		};
+		FA7CED1621B226170094AFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7CECEE21B226130094AFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7CECF521B226130094AFAF;
+			remoteInfo = MachineLearningVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7CECF621B226130094AFAF /* MachineLearningVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7CECF921B226130094AFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7CECFB21B226130094AFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7CECFE21B226130094AFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7CED0021B226170094AFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7CED0321B226170094AFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7CED0521B226170094AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7CED0A21B226170094AFAF /* MachineLearningVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7CED0E21B226170094AFAF /* MachineLearningVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningVisionTests.swift; sourceTree = "<group>"; };
+		FA7CED1021B226170094AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7CED1521B226170094AFAF /* MachineLearningVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7CED1921B226170094AFAF /* MachineLearningVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningVisionUITests.swift; sourceTree = "<group>"; };
+		FA7CED1B21B226170094AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7CECF321B226130094AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED0721B226170094AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED1221B226170094AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7CECED21B226120094AFAF = {
+			isa = PBXGroup;
+			children = (
+				FA7CECF821B226130094AFAF /* MachineLearningVision */,
+				FA7CED0D21B226170094AFAF /* MachineLearningVisionTests */,
+				FA7CED1821B226170094AFAF /* MachineLearningVisionUITests */,
+				FA7CECF721B226130094AFAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7CECF721B226130094AFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CECF621B226130094AFAF /* MachineLearningVision.app */,
+				FA7CED0A21B226170094AFAF /* MachineLearningVisionTests.xctest */,
+				FA7CED1521B226170094AFAF /* MachineLearningVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7CECF821B226130094AFAF /* MachineLearningVision */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CECF921B226130094AFAF /* AppDelegate.swift */,
+				FA7CECFB21B226130094AFAF /* ViewController.swift */,
+				FA7CECFD21B226130094AFAF /* Main.storyboard */,
+				FA7CED0021B226170094AFAF /* Assets.xcassets */,
+				FA7CED0221B226170094AFAF /* LaunchScreen.storyboard */,
+				FA7CED0521B226170094AFAF /* Info.plist */,
+			);
+			path = MachineLearningVision;
+			sourceTree = "<group>";
+		};
+		FA7CED0D21B226170094AFAF /* MachineLearningVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CED0E21B226170094AFAF /* MachineLearningVisionTests.swift */,
+				FA7CED1021B226170094AFAF /* Info.plist */,
+			);
+			path = MachineLearningVisionTests;
+			sourceTree = "<group>";
+		};
+		FA7CED1821B226170094AFAF /* MachineLearningVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7CED1921B226170094AFAF /* MachineLearningVisionUITests.swift */,
+				FA7CED1B21B226170094AFAF /* Info.plist */,
+			);
+			path = MachineLearningVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7CECF521B226130094AFAF /* MachineLearningVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7CED1E21B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVision" */;
+			buildPhases = (
+				FA7CECF221B226130094AFAF /* Sources */,
+				FA7CECF321B226130094AFAF /* Frameworks */,
+				FA7CECF421B226130094AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachineLearningVision;
+			productName = MachineLearningVision;
+			productReference = FA7CECF621B226130094AFAF /* MachineLearningVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7CED0921B226170094AFAF /* MachineLearningVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7CED2121B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVisionTests" */;
+			buildPhases = (
+				FA7CED0621B226170094AFAF /* Sources */,
+				FA7CED0721B226170094AFAF /* Frameworks */,
+				FA7CED0821B226170094AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7CED0C21B226170094AFAF /* PBXTargetDependency */,
+			);
+			name = MachineLearningVisionTests;
+			productName = MachineLearningVisionTests;
+			productReference = FA7CED0A21B226170094AFAF /* MachineLearningVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7CED1421B226170094AFAF /* MachineLearningVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7CED2421B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVisionUITests" */;
+			buildPhases = (
+				FA7CED1121B226170094AFAF /* Sources */,
+				FA7CED1221B226170094AFAF /* Frameworks */,
+				FA7CED1321B226170094AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7CED1721B226170094AFAF /* PBXTargetDependency */,
+			);
+			name = MachineLearningVisionUITests;
+			productName = MachineLearningVisionUITests;
+			productReference = FA7CED1521B226170094AFAF /* MachineLearningVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7CECEE21B226130094AFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kelly Galakatos";
+				TargetAttributes = {
+					FA7CECF521B226130094AFAF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FA7CED0921B226170094AFAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA7CECF521B226130094AFAF;
+					};
+					FA7CED1421B226170094AFAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA7CECF521B226130094AFAF;
+					};
+				};
+			};
+			buildConfigurationList = FA7CECF121B226130094AFAF /* Build configuration list for PBXProject "MachineLearningVision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7CECED21B226120094AFAF;
+			productRefGroup = FA7CECF721B226130094AFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7CECF521B226130094AFAF /* MachineLearningVision */,
+				FA7CED0921B226170094AFAF /* MachineLearningVisionTests */,
+				FA7CED1421B226170094AFAF /* MachineLearningVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7CECF421B226130094AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7CED0421B226170094AFAF /* LaunchScreen.storyboard in Resources */,
+				FA7CED0121B226170094AFAF /* Assets.xcassets in Resources */,
+				FA7CECFF21B226130094AFAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED0821B226170094AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED1321B226170094AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7CECF221B226130094AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7CECFC21B226130094AFAF /* ViewController.swift in Sources */,
+				FA7CECFA21B226130094AFAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED0621B226170094AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7CED0F21B226170094AFAF /* MachineLearningVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7CED1121B226170094AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7CED1A21B226170094AFAF /* MachineLearningVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7CED0C21B226170094AFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7CECF521B226130094AFAF /* MachineLearningVision */;
+			targetProxy = FA7CED0B21B226170094AFAF /* PBXContainerItemProxy */;
+		};
+		FA7CED1721B226170094AFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7CECF521B226130094AFAF /* MachineLearningVision */;
+			targetProxy = FA7CED1621B226170094AFAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7CECFD21B226130094AFAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7CECFE21B226130094AFAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7CED0221B226170094AFAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7CED0321B226170094AFAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7CED1C21B226170094AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7CED1D21B226170094AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7CED1F21B226170094AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7CED2021B226170094AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA7CED2221B226170094AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachineLearningVision.app/MachineLearningVision";
+			};
+			name = Debug;
+		};
+		FA7CED2321B226170094AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachineLearningVision.app/MachineLearningVision";
+			};
+			name = Release;
+		};
+		FA7CED2521B226170094AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachineLearningVision;
+			};
+			name = Debug;
+		};
+		FA7CED2621B226170094AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNP43MUW9S;
+				INFOPLIST_FILE = MachineLearningVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.galakatos.MachineLearningVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachineLearningVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7CECF121B226130094AFAF /* Build configuration list for PBXProject "MachineLearningVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7CED1C21B226170094AFAF /* Debug */,
+				FA7CED1D21B226170094AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7CED1E21B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7CED1F21B226170094AFAF /* Debug */,
+				FA7CED2021B226170094AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7CED2121B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7CED2221B226170094AFAF /* Debug */,
+				FA7CED2321B226170094AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7CED2421B226170094AFAF /* Build configuration list for PBXNativeTarget "MachineLearningVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7CED2521B226170094AFAF /* Debug */,
+				FA7CED2621B226170094AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7CECEE21B226130094AFAF /* Project object */;
+}
